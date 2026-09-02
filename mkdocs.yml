@@ -1,21 +1,25 @@
 site_name: Zona de documents
-site_url: https://jsolans.cc/mkdocs
+site_url: https://calaix.github.io/mkdocs/
+
+# Enllaç al repositori del teu projecte
+repo_url: https://github.com/calaix/mkdocs
+repo_name: calaix/mkdocs
+edit_uri: edit/main/docs/
+
 theme:
   name: material
-  custom_dir: overrides  
+  custom_dir: overrides
   language: ca
   logo: images/logo.png
   favicon: images/favicon.ico
   features:
+    - content.action.edit
+    - content.action.view
     - navigation.footer
     - content.code.copy
     - content.code.select
     - navigation.tabs
     - navigation.indexes
-
-    - content.action.view  # Habilita el botón de "Ver código fuente"
-
-
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -29,9 +33,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  icon:
-    admonition:
-      <type>: material/alert
 
 plugins:
   - search
@@ -47,16 +48,12 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-      
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
   - admonition
   - pymdownx.details
   - tables
-  
-  
-
 
 nav:
   - Inici: index.md
@@ -67,8 +64,8 @@ nav:
       - proves/3.md
       - proves/4.md
   - Mkdocs:
-      - mkdocs/index.md 
-      - mkdocs/1.md 
+      - mkdocs/index.md
+      - mkdocs/1.md
 
 extra:
   social:
@@ -83,17 +80,12 @@ extra:
       name: Mastodon
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/?lang=es
-      name: x-twitter  
-    
+      name: x-twitter
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/abcjs@6.2.2/abcjs-audio.css
   - stylesheets/custom.css
- # - stylesheets/extra.css
-
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/abcjs@6.2.2/dist/abcjs-basic-min.js
   - javascripts/abc-render.js
-
-

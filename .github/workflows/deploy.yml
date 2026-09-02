@@ -3,10 +3,10 @@ name: Deploy MkDocs to GitHub Pages
 on:
   push:
     branches:
-      - main      # Canvia a 'master' si la teva branca principal es diu així
+      - main
 
 permissions:
-  contents: write # Requerit per poder escriure a la branca gh-pages
+  contents: write
 
 jobs:
   deploy:
