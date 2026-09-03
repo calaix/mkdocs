@@ -1,0 +1,14 @@
+.abc-wrapper {
+  margin: 1.5em 0;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.abc-audio-player {
+  margin-bottom: 12px;
+}
+
+.abcjs-inline-audio {
+  max-width: 100%;
+}
