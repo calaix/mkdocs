@@ -11,4 +11,5 @@ Montes placerat in leo taciti sociis viverra porttitor consectetur per rhoncus l
 Anterior
 Inici
 
-![alt text](./images/portada.png)
+
+![Prova](./images/portada.png){ style="display: block; margin: 0 auto; width: 400px;" }
