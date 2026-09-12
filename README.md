@@ -18,7 +18,7 @@ Abans de començar, assegura't de tenir instal·lat:
    cd mkdocs
    ```
    
-2.   **Crea i activa un entorn virtual (opcional però recomanat):**
+2. **Crea i activa un entorn virtual (opcional però recomanat):**
    ```bash
    python -m venv venv
    source venv/bin/activate  # En Linux/macOS
