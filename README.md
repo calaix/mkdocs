@@ -13,17 +13,17 @@ Abans de començar, assegura't de tenir instal·lat:
 ## 🛠️ Instal·lació
 
 1. **Clona el repositori:**
-   ```bash
-   git clone [https://github.com/calaix/mkdocs.git](https://github.com/calaix/mkdocs.git)
-   cd mkdocs
-   ```
+```bash
+git clone [https://github.com/calaix/mkdocs.git](https://github.com/calaix/mkdocs.git)
+cd mkdocs
+```
    
 2. **Crea i activa un entorn virtual (opcional però recomanat):**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # En Linux/macOS
-   # venv\Scripts\activate   # En Windows
-   ```
+```bash
+python -m venv venv
+source venv/bin/activate  # En Linux/macOS
+# venv\Scripts\activate   # En Windows
+```
 3. **Instal·la MkDocs i les dependències:**
 
 ``` Bash
