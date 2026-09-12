@@ -84,7 +84,8 @@ extra:
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/abcjs@6.2.2/abcjs-audio.css
-  - stylesheets/custom.css
+  - stylesheets/custom.cs
+
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/abcjs@6.2.2/dist/abcjs-basic-min.js
