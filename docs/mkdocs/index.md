@@ -4,7 +4,11 @@ icon: material/rocket-launch
 
 # Què és MkDocs?
 
-![Mkdocs](../images/mkdocs.png)
+
+
+![Prova](../images/mkdocs.png){ style="display: block; margin: 0 auto;" }
+
+
 
 **MkDocs** és un generador de llocs web estàtics ràpid, senzill i d'codi obert dissenyat principalment per a crear documentació de projectes i APIs. El seu funcionament es basa a escriure contingut en fitxers text en format Markdown i convertir-los automàticament en un lloc web HTML modern, estructurat i completament funcional.
 
